@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "request": "launch",
+      "type": "java",
+      "console": "integratedTerminal",
+      "classPaths": [
+        "${workspaceFolder}/day01/build/classes/kotlin/main"
+      ],
+      "mainClass": "Day01Kt",
+      "name": "Debug AoC day01",
+      "preLaunchTask": "Gradle: Build day01"
+    }
+  ]
+}

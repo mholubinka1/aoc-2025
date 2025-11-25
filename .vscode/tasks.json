@@ -1,0 +1,14 @@
+{
+  "tasks": [
+    {
+      "group": "build",
+      "command": ".\\gradlew.bat :day01:build",
+      "problemMatcher": [
+        "$gradle"
+      ],
+      "type": "shell",
+      "label": "Gradle: Build day01"
+    }
+  ],
+  "version": "2.0.0"
+}
