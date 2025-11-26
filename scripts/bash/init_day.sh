@@ -86,12 +86,17 @@ if [ ! -f "$TASKS_JSON" ]; then
     echo '{ "version": "2.0.0", "tasks": [] }' > "$TASKS_JSON"
 fi
 
-jq --arg dayId "$DAY_ID" --arg cmd ".\/gradlew :$DAY_ID:build" '
+jq --arg dayId "$DAY_ID" \
+   --arg cmd ".\/gradlew :$DAY_ID:build" \
+   --arg winCmd ".\\gradlew.bat :$DAY_Id:build" '
     .tasks += [
         {
             "label": "Gradle: Build \($dayId)",
             "type": "shell",
             "command": $cmd,
+            "windows": {
+                "command": $winCmd
+            },
             "group": "build",
             "problemMatcher": ["$gradle"]
         }

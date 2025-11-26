@@ -97,9 +97,12 @@ $tasks = Get-Content -Path $tasksJson -Raw | ConvertFrom-Json
 $newTask = @{
     label = "Gradle: Build $dayId"
     type = "shell"
-    command = ".\gradlew.bat :$($dayId):build"
     group = "build"
     problemMatcher = @('$gradle')
+    command = "./gradlew.bat :$($dayId):build"
+    windows = @{
+        command = ".\gradlew.bat :$($dayId):build"
+    }
 }
 
 $tasks.tasks += $newTask

@@ -2,7 +2,10 @@
   "tasks": [
     {
       "group": "build",
-      "command": ".\\gradlew.bat :day01:build",
+      "command": "./gradlew :day01:build",
+      "windows": {
+        "command": ".\\gradlew.bat :day01:build"
+      },
       "problemMatcher": [
         "$gradle"
       ],
