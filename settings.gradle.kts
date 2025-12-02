@@ -20,3 +20,4 @@ fun includeDay(day: Int) {
 
 include(":day01")
 
+include(":day02")
