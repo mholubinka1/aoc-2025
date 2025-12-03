@@ -1,8 +1,8 @@
 import java.io.File
 
 data class IdRange(
-    var min: Long,
-    var max: Long
+    val min: Long,
+    val max: Long
 )
 
 fun strToRanges(input: String): List<IdRange> {

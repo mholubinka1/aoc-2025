@@ -29,13 +29,13 @@ repositories {
 
 // Configure the application plugin
 application {
-    mainClass.set("Day01Kt")
+    mainClass.set("Day$($Day.ToString("00"))Kt")
 }
 
 // Recommended: create a typed run task
 tasks.named<JavaExec>("run") {
     group = "application"
-    description = "Run Day01 main class"
+    description = "Run ($dayId) main class"
     classpath = sourceSets["main"].runtimeClasspath
 }
 "@

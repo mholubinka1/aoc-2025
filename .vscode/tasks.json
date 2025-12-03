@@ -23,6 +23,18 @@
       ],
       "group": "build",
       "command": "./gradlew.bat :day02:build"
+    },
+    {
+      "label": "Gradle: Build day03",
+      "group": "build",
+      "windows": {
+        "command": ".\\gradlew.bat :day03:build"
+      },
+      "problemMatcher": [
+        "$gradle"
+      ],
+      "type": "shell",
+      "command": "./gradlew.bat :day03:build"
     }
   ],
   "version": "2.0.0"
