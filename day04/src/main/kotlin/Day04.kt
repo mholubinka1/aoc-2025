@@ -21,7 +21,6 @@ fun countNeighbours(grid: Array<ByteArray>, x: Int, y: Int): Int {
             }
         }
     }
-
     return ones
 }
 
