@@ -59,6 +59,30 @@
       ],
       "type": "shell",
       "command": "./gradlew.bat :day05:build"
+    },
+    {
+      "label": "Gradle: Build day06",
+      "group": "build",
+      "windows": {
+        "command": ".\\gradlew.bat :day06:build"
+      },
+      "problemMatcher": [
+        "$gradle"
+      ],
+      "type": "shell",
+      "command": "./gradlew.bat :day06:build"
+    },
+    {
+      "label": "Gradle: Build day07",
+      "group": "build",
+      "windows": {
+        "command": ".\\gradlew.bat :day07:build"
+      },
+      "problemMatcher": [
+        "$gradle"
+      ],
+      "type": "shell",
+      "command": "./gradlew.bat :day07:build"
     }
   ],
   "version": "2.0.0"

@@ -55,6 +55,28 @@
       "type": "java",
       "name": "Debug AoC day05",
       "mainClass": "Day05Kt"
+    },
+    {
+      "request": "launch",
+      "preLaunchTask": "Gradle: Build day06",
+      "console": "integratedTerminal",
+      "classPaths": [
+        "${workspaceFolder}/day06/build/classes/kotlin/main"
+      ],
+      "type": "java",
+      "name": "Debug AoC day06",
+      "mainClass": "Day06Kt"
+    },
+    {
+      "request": "launch",
+      "preLaunchTask": "Gradle: Build day07",
+      "console": "integratedTerminal",
+      "classPaths": [
+        "${workspaceFolder}/day07/build/classes/kotlin/main"
+      ],
+      "type": "java",
+      "name": "Debug AoC day07",
+      "mainClass": "Day07Kt"
     }
   ]
 }
