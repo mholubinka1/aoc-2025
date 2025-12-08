@@ -77,6 +77,17 @@
       "type": "java",
       "name": "Debug AoC day07",
       "mainClass": "Day07Kt"
+    },
+    {
+      "name": "Debug AoC day08",
+      "mainClass": "Day08Kt",
+      "type": "java",
+      "classPaths": [
+        "${workspaceFolder}/day08/build/classes/kotlin/main"
+      ],
+      "console": "integratedTerminal",
+      "request": "launch",
+      "preLaunchTask": "Gradle: Build day08"
     }
   ]
 }
