@@ -95,6 +95,18 @@
         "command": ".\\gradlew.bat :day08:build"
       },
       "group": "build"
+    },
+    {
+      "command": "./gradlew.bat :day09:build",
+      "windows": {
+        "command": ".\\gradlew.bat :day09:build"
+      },
+      "group": "build",
+      "type": "shell",
+      "problemMatcher": [
+        "$gradle"
+      ],
+      "label": "Gradle: Build day09"
     }
   ],
   "version": "2.0.0"

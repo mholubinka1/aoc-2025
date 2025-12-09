@@ -88,6 +88,17 @@
       "console": "integratedTerminal",
       "request": "launch",
       "preLaunchTask": "Gradle: Build day08"
+    },
+    {
+      "mainClass": "Day09Kt",
+      "preLaunchTask": "Gradle: Build day09",
+      "request": "launch",
+      "type": "java",
+      "name": "Debug AoC day09",
+      "console": "integratedTerminal",
+      "classPaths": [
+        "${workspaceFolder}/day09/build/classes/kotlin/main"
+      ]
     }
   ]
 }
